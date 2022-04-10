@@ -1,0 +1,134 @@
+INTRODUÇÃO AO GIT E AO GITHUB
+   TERMINAL CMD
+
+1-LISTAR (MOSTRAR LOCAL DENTRO DOS SISTEMA OPERACIONAL)
+     COMANDO-> "DIR"
+
+2-NAVEGAR NAS PASTAS
+
+
+
+     COMANDO->  "CD" , "CD /" ACESSA BASE DO DIREORIO "C"
+
+3-VOLTAR AO INICIO DA NAVEGAÇÃO
+     COMANDO-> "CD .."
+
+4-LIMPAR TERMINAL 
+     COMANDO-> "CLS"
+
+5-CRIAR PASTA NO TERMINAL
+     COMANDO-> "MKDIR"
+     COMANDO-> "ECHO" REFLETIR, CRIAR ARQUIVO
+EX: "ECHO HELLO"
+
+6-DELETAR ARQUIVOS E PASTA
+     COMANDO-> "DEL" DELETAR ARQUIVO
+     COMANDO-> "RMDIR
+
+
+
+ENTENDENDO O FUNCIONAMENTO DO GIT
+--SHA1
+--OBJETOS FUNDAMENTAIS
+--SISTEMA DISTRIBUIDOS
+--SEGURANÇA
+
+SHA OU SHA1 => ALGORITMO DE HASH SEGURO (CUNJUTO DE CARACTERE IDENTIFICADOR DE 
+40 DIGITOS - IDENTIFICAR ARQ VE FORMA SEGURA E RAPIDA)
+
+OBJETOS INTERNOS DO GIT
+
+--BLOBS
+--TREES
+--COMMITS
+ 
+OBJETOS
+BLOBS=> GUARDA O CONTEUDO DO ARQUIVO (CONTEM OS METADADOS DO ARQUIVO), BLOCO
+BASE DE COMPOSICÃO
+
+TREES=> SÃO AS ARVORES, ARMAZENAM OS BLOBS NUMA CRESCENTE, ARMAZENA E APONTA
+PARA OS TIPOS DE BLOBS DIFERENTES E PARA OS COMMITS.
+
+COMMITS=> JUNTA TODAS AS INFORMAÇÕES. EXECUSOES DOS CODIGOS 
+
+GIT SISTEMA DISTRIBUIDO SEGURO.
+
+
+CHAVE SSH=> FORMA DE ESTABELECER UMA COXECXÃO SEGURA E ENCRIPRITADA POR DUAS 
+MAQUINAS (CHAVE PUBLICA E CHAVE PRIVADA)
+
+ex: ssh-keygen -t ed25519 -C
+
+pasta: (/c/Users/Solange/.ssh/id_ed25519) senha 140210
+
+COMANDO CD - ACESSAR AS PASTAS
+COMANDO LS - LISTAR AS PASTAS
+COMANDO CAT - MOSTRAR CONTEUDOS DAS PASTAS
+COMANDO PWD - MOSTRAR CAMINHO DA PASTA
+
+token git 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
+
+INICIANDO GIY E CRIANDO COMMIT
+    --INICIAR O GIT
+    -- INICIAR O VERSIONAMENTO
+    -- CRIAR UM COMMIT
+
+GIT INIT => INICIA
+GIT ADD => MOVER ARQUIVO
+GIT COMMIT =>
+
+git init, inicia o git dentro de um local
+
+Flag -a (mostra pastas ocultas)
+
+criar um autor no git
+comando git config --global user.email " escrever email"
+
+Adicionando um arquivo
+    ** Arquivo markdown forma de escrever HTML cada nivel e colocado com #
+
+
+commit em um arquivo
+
+  1- git add nome arquivo ou git add * adiciona todas a modificacoes do diretorio
+  2- git commit -m "mensagem"
+
+
+Passo a passo no ciclo de vida dos arquivoos dentro do GIT
+
+GIT INIT - comando para inicializar o repositorio no GIT dentro da pasta
+
+GIT STATU - fala em que estagio esta o arquivo
+
+Comando para mover --> mv
+
+   ** ./ server para buscar um outro repositorio 
+
+UNTRACKED --> ARQUIVOS INICIAL NÃO TEN CIENCIA
+
+TRACKED (CIENCIA DOS ARQUIVOS)
+UNMODIFIEL --> ARQUIVO QUE AINDA NÃO FOI MODIFICADO
+MODIFIED --> E O ARQUIVO UNMODIFIEL QUE SOFREU MODIFICAÇÃO
+STAGET --> E O ARQUIVO PARA COMMIT
+
+-------ACESSAR CONFIGURAÇÕES
+
+   ** comando--> git confing --List (comando list-lista todas as configurações)
+   ** comando para alterar configurações
+          ==> git config --global -- unset
+
+comando para mandar o arquivo para o github
+  ** git remote add oring
+
+lista repositorios 
+  comando --> git remote -v
+
+   **comando para mandar 0 arquivo para o git
+             ==> git push origin master
+
+
+ls -a ==> lista repositorios ocultos
+
+
+
+
